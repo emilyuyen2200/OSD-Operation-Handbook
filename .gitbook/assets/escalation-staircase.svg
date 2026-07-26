@@ -1,0 +1,71 @@
+<svg viewBox="0 0 620 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .t-red { fill: #FEF2F2; stroke: #FCA5A5; stroke-width: 1.5; }
+      .t-orange { fill: #FFF7ED; stroke: #FDBA74; stroke-width: 1.5; }
+      .t-yellow { fill: #FEFCE8; stroke: #FDE68A; stroke-width: 1.5; }
+      .bar-red { fill: #DC2626; }
+      .bar-orange { fill: #F59E0B; }
+      .bar-yellow { fill: #EAB308; }
+      .title-r { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #991B1B; }
+      .title-o { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #92400E; }
+      .title-y { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #713F12; }
+      .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #4A5568; }
+      .chain { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; }
+      .time { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; }
+      .arrow { stroke: #90A4C8; stroke-width: 2; fill: none; }
+      .arrowhead { fill: #90A4C8; }
+    </style>
+    <marker id="arrowE" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" class="arrowhead"/>
+    </marker>
+  </defs>
+
+  <!-- Tier 1: Khẩn cấp -->
+  <g transform="translate(10,10)">
+    <rect class="bar-red" x="0" y="0" width="600" height="8" rx="3"/>
+    <rect class="t-red" x="0" y="8" width="600" height="150" rx="10"/>
+    <text class="title-r" x="20" y="38">🔴 Khẩn cấp — đang trong ca thi</text>
+    <text class="desc" x="20" y="60">Sự cố thiết bị, an ninh, sức khỏe thí sinh, vi phạm quy chế nghiêm trọng</text>
+    <text class="time" x="20" y="85" fill="#991B1B">⏱️ Chờ phản hồi tối đa: 5 phút</text>
+
+    <text class="chain" x="20" y="115" fill="#991B1B">Exam Coordinator</text>
+    <path class="arrow" d="M150,110 L185,110" marker-end="url(#arrowE)"/>
+    <text class="chain" x="190" y="115" fill="#991B1B">Exam Director</text>
+    <path class="arrow" d="M310,110 L345,110" marker-end="url(#arrowE)"/>
+    <text class="chain" x="350" y="115" fill="#991B1B">Tự quyết định an toàn tại chỗ</text>
+    <text class="desc" x="20" y="138">(ghi nhận lại đầy đủ để báo cáo ngay khi liên lạc được)</text>
+  </g>
+
+  <!-- Tier 2: Quan trọng -->
+  <g transform="translate(10,180)">
+    <rect class="bar-orange" x="0" y="0" width="600" height="8" rx="3"/>
+    <rect class="t-orange" x="0" y="8" width="600" height="150" rx="10"/>
+    <text class="title-o" x="20" y="38">🟠 Quan trọng — trước/sau ngày thi</text>
+    <text class="desc" x="20" y="60">Đề thi giao trễ/thiếu, sai lệch đối soát, sự cố hệ thống phần mềm</text>
+    <text class="time" x="20" y="85" fill="#92400E">⏱️ Chờ phản hồi tối đa: 30 phút</text>
+
+    <text class="chain" x="20" y="115" fill="#92400E">Exam Coordinator</text>
+    <path class="arrow" d="M150,110 L185,110" marker-end="url(#arrowE)"/>
+    <text class="chain" x="190" y="115" fill="#92400E">Exam Director</text>
+    <path class="arrow" d="M310,110 L345,110" marker-end="url(#arrowE)"/>
+    <text class="chain" x="350" y="115" fill="#92400E">Tạm dừng, chờ xử lý</text>
+    <text class="desc" x="20" y="138">(không tự quyết định các vấn đề cần phê duyệt)</text>
+  </g>
+
+  <!-- Tier 3: Thông thường -->
+  <g transform="translate(10,350)">
+    <rect class="bar-yellow" x="0" y="0" width="600" height="8" rx="3"/>
+    <rect class="t-yellow" x="0" y="8" width="600" height="120" rx="10"/>
+    <text class="title-y" x="20" y="38">🟡 Thông thường — công việc hành chính</text>
+    <text class="desc" x="20" y="60">Câu hỏi quy trình, xác nhận thông tin không gấp, cập nhật định kỳ</text>
+    <text class="time" x="20" y="85" fill="#713F12">⏱️ Thời gian chờ: trong ngày làm việc</text>
+    <text class="desc" x="20" y="108">Gửi qua kênh chính thức (nhóm Zalo/email) — không cần gọi điện</text>
+  </g>
+
+  <!-- footer note -->
+  <g transform="translate(10,495)">
+    <rect class="t-yellow" x="0" y="0" width="600" height="2" fill="#E2E8F0" stroke="none"/>
+    <text class="desc" x="0" y="30" font-style="italic">Xem chi tiết danh bạ liên hệ từng vai trò ở bảng bên trên.</text>
+  </g>
+</svg>

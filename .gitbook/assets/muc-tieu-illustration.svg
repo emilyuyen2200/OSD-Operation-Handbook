@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+      .accent { fill: #0F3573; }
+      .accent-light { fill: #0059EC; }
+      .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #0F3573; }
+      .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; fill: #4A5568; }
+    </style>
+  </defs>
+
+  <!-- Card 1: Chuẩn hóa quy trình (shield) -->
+  <g transform="translate(20,20)">
+    <rect class="card" x="0" y="0" width="270" height="220" rx="12"/>
+    <rect class="accent-light" x="0" y="0" width="270" height="5" rx="2"/>
+    <g transform="translate(115,35)">
+      <path class="accent" d="M20 0 L38 8 V24 C38 36 30 45 20 50 C10 45 2 36 2 24 V8 Z"/>
+      <path d="M12 25 L18 31 L29 18" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text class="title" x="135" y="115" text-anchor="middle">Chuẩn hóa</text>
+    <text class="title" x="135" y="140" text-anchor="middle">quy trình</text>
+    <text class="desc" x="135" y="170" text-anchor="middle">Vận hành thống nhất,</text>
+    <text class="desc" x="135" y="188" text-anchor="middle">hạn chế sai sót</text>
+  </g>
+
+  <!-- Card 2: Thống nhất phối hợp (people/handshake) -->
+  <g transform="translate(310,20)">
+    <rect class="card" x="0" y="0" width="270" height="220" rx="12"/>
+    <rect class="accent-light" x="0" y="0" width="270" height="5" rx="2"/>
+    <g transform="translate(105,40)">
+      <circle class="accent" cx="12" cy="10" r="9"/>
+      <path class="accent" d="M0 42 C0 28 6 22 12 22 C18 22 24 28 24 42 Z"/>
+      <circle class="accent-light" cx="48" cy="10" r="9"/>
+      <path class="accent-light" d="M36 42 C36 28 42 22 48 22 C54 22 60 28 60 42 Z"/>
+    </g>
+    <text class="title" x="135" y="115" text-anchor="middle">Thống nhất</text>
+    <text class="title" x="135" y="140" text-anchor="middle">phối hợp</text>
+    <text class="desc" x="135" y="170" text-anchor="middle">Rõ trách nhiệm,</text>
+    <text class="desc" x="135" y="188" text-anchor="middle">phối hợp hiệu quả</text>
+  </g>
+
+  <!-- Card 3: Đào tạo nhân sự (graduation cap) -->
+  <g transform="translate(600,20)">
+    <rect class="card" x="0" y="0" width="270" height="220" rx="12"/>
+    <rect class="accent-light" x="0" y="0" width="270" height="5" rx="2"/>
+    <g transform="translate(105,42)">
+      <path class="accent" d="M30 0 L60 14 L30 28 L0 14 Z"/>
+      <path class="accent" d="M15 20 V33 C15 38 22 42 30 42 C38 42 45 38 45 33 V20 L30 27 Z"/>
+      <line class="accent" x1="60" y1="14" x2="60" y2="30" stroke="#0F3573" stroke-width="3"/>
+    </g>
+    <text class="title" x="135" y="115" text-anchor="middle">Đào tạo</text>
+    <text class="title" x="135" y="140" text-anchor="middle">nhân sự</text>
+    <text class="desc" x="135" y="170" text-anchor="middle">Hướng dẫn nhân sự mới,</text>
+    <text class="desc" x="135" y="188" text-anchor="middle">tài liệu tham khảo</text>
+  </g>
+
+  <!-- Card 4: Cải tiến liên tục (chart up) -->
+  <g transform="translate(890,20)">
+    <rect class="card" x="0" y="0" width="270" height="220" rx="12"/>
+    <rect class="accent-light" x="0" y="0" width="270" height="5" rx="2"/>
+    <g transform="translate(105,40)">
+      <polyline points="0,42 16,26 28,34 60,4" fill="none" stroke="#0F3573" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon class="accent" points="60,4 60,16 48,4"/>
+    </g>
+    <text class="title" x="135" y="115" text-anchor="middle">Cải tiến</text>
+    <text class="title" x="135" y="140" text-anchor="middle">liên tục</text>
+    <text class="desc" x="135" y="170" text-anchor="middle">Lưu kinh nghiệm,</text>
+    <text class="desc" x="135" y="188" text-anchor="middle">cập nhật sau mỗi kỳ thi</text>
+  </g>
+</svg>
