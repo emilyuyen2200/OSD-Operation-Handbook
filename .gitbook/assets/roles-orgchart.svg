@@ -1,0 +1,114 @@
+<svg viewBox="0 0 760 780" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+      .mini { fill: #FFFFFF; stroke: #D6E0F5; stroke-width: 1; }
+      .accent { fill: #0F3573; }
+      .accent-light { fill: #0059EC; }
+      .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #0F3573; }
+      .title-s { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #0F3573; }
+      .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #4A5568; }
+      .group-label { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #0059EC; }
+      .arrow { stroke: #90A4C8; stroke-width: 2.5; fill: none; }
+      .arrowhead { fill: #90A4C8; }
+    </style>
+    <marker id="arrowO" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" class="arrowhead"/>
+    </marker>
+  </defs>
+
+  <!-- L1: Ban Lãnh đạo -->
+  <g transform="translate(280,10)">
+    <rect class="card" x="0" y="0" width="200" height="55" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="200" height="5" rx="2"/>
+    <text class="title-s" x="100" y="34" text-anchor="middle">🏢 Ban Lãnh đạo</text>
+  </g>
+  <path class="arrow" d="M380,65 L380,90" marker-end="url(#arrowO)"/>
+
+  <!-- L2: Exam Director -->
+  <g transform="translate(250,95)">
+    <rect class="card" x="0" y="0" width="260" height="65" rx="10"/>
+    <rect class="accent" x="0" y="0" width="260" height="5" rx="2"/>
+    <text class="title" x="130" y="40" text-anchor="middle">🎯 Exam Director</text>
+  </g>
+  <path class="arrow" d="M380,160 L380,185" marker-end="url(#arrowO)"/>
+
+  <!-- L3: Exam Coordinator -->
+  <g transform="translate(250,190)">
+    <rect class="card" x="0" y="0" width="260" height="65" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="260" height="5" rx="2"/>
+    <text class="title" x="130" y="40" text-anchor="middle">📋 Exam Coordinator</text>
+  </g>
+
+  <!-- Distribution bar -->
+  <path class="arrow" d="M380,255 L380,275" />
+  <path class="arrow" d="M205,275 L705,275" />
+  <path class="arrow" d="M205,275 L205,288" marker-end="url(#arrowO)"/>
+  <path class="arrow" d="M470,275 L470,288" marker-end="url(#arrowO)"/>
+  <path class="arrow" d="M590,275 L590,288" marker-end="url(#arrowO)"/>
+  <path class="arrow" d="M705,275 L705,288" marker-end="url(#arrowO)"/>
+
+  <!-- Exam Operations Team container -->
+  <g transform="translate(10,290)">
+    <rect class="card" x="0" y="0" width="390" height="190" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="390" height="5" rx="2"/>
+    <text class="group-label" x="195" y="28" text-anchor="middle">👥 Exam Operations Team</text>
+
+    <!-- 6 mini boxes 3x2 -->
+    <g font-size="11">
+      <rect class="mini" x="15" y="40" width="115" height="65" rx="6"/>
+      <text class="title-s" x="72" y="65" text-anchor="middle" font-size="12">Welcome</text>
+      <text class="desc" x="72" y="85" text-anchor="middle">Officer</text>
+
+      <rect class="mini" x="138" y="40" width="115" height="65" rx="6"/>
+      <text class="title-s" x="195" y="65" text-anchor="middle" font-size="12">Check-in</text>
+      <text class="desc" x="195" y="85" text-anchor="middle">Officer</text>
+
+      <rect class="mini" x="261" y="40" width="115" height="65" rx="6"/>
+      <text class="title-s" x="318" y="65" text-anchor="middle" font-size="12">Locker</text>
+      <text class="desc" x="318" y="85" text-anchor="middle">Officer</text>
+
+      <rect class="mini" x="15" y="115" width="115" height="65" rx="6"/>
+      <text class="title-s" x="72" y="140" text-anchor="middle" font-size="12">Security</text>
+      <text class="desc" x="72" y="160" text-anchor="middle">Officer</text>
+
+      <rect class="mini" x="138" y="115" width="115" height="65" rx="6"/>
+      <text class="title-s" x="195" y="140" text-anchor="middle" font-size="12">Room</text>
+      <text class="desc" x="195" y="160" text-anchor="middle">Coordinator</text>
+
+      <rect class="mini" x="261" y="115" width="115" height="65" rx="6"/>
+      <text class="title-s" x="318" y="140" text-anchor="middle" font-size="12">Technical</text>
+      <text class="desc" x="318" y="160" text-anchor="middle">Team</text>
+    </g>
+  </g>
+
+  <!-- Invigilator -->
+  <g transform="translate(420,290)">
+    <rect class="card" x="0" y="0" width="100" height="65" rx="10"/>
+    <rect class="accent" x="0" y="0" width="100" height="5" rx="2"/>
+    <text class="title-s" x="50" y="30" text-anchor="middle">📝 Invigilator</text>
+    <text class="desc" x="50" y="48" text-anchor="middle">(Giám thị)</text>
+  </g>
+
+  <!-- Examiner -->
+  <g transform="translate(540,290)">
+    <rect class="card" x="0" y="0" width="100" height="65" rx="10"/>
+    <rect class="accent" x="0" y="0" width="100" height="5" rx="2"/>
+    <text class="title-s" x="50" y="30" text-anchor="middle">🎓 Examiner</text>
+    <text class="desc" x="50" y="48" text-anchor="middle">(Giám khảo)</text>
+  </g>
+
+  <!-- Marketing -->
+  <g transform="translate(660,290)">
+    <rect class="card" x="0" y="0" width="90" height="65" rx="10"/>
+    <rect class="accent" x="0" y="0" width="90" height="5" rx="2"/>
+    <text class="title-s" x="45" y="30" text-anchor="middle" font-size="12">📣 Marketing</text>
+  </g>
+
+  <!-- Deprecated note -->
+  <g transform="translate(230,520)">
+    <rect class="mini" x="0" y="0" width="300" height="55" rx="8" stroke-dasharray="4,3"/>
+    <text class="desc" x="150" y="23" text-anchor="middle" font-weight="600">⚠️ Exam Manager (đã ngưng dùng)</text>
+    <text class="desc" x="150" y="41" text-anchor="middle">Thay thế bởi Exam Director</text>
+  </g>
+</svg>

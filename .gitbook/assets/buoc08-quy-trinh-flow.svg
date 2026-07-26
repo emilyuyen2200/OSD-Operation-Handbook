@@ -1,0 +1,92 @@
+<svg viewBox="0 0 700 1050" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+      .accent { fill: #0F3573; }
+      .accent-light { fill: #0059EC; }
+      .diamond { fill: #FFF7ED; stroke: #F59E0B; stroke-width: 1.5; }
+      .danger-card { fill: #FEF2F2; stroke: #FCA5A5; stroke-width: 1.5; }
+      .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #0F3573; }
+      .title-d { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 700; fill: #92400E; }
+      .title-r { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 700; fill: #991B1B; }
+      .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #4A5568; }
+      .arrow { stroke: #90A4C8; stroke-width: 2.5; fill: none; }
+      .arrow-r { stroke: #F87171; stroke-width: 2.5; fill: none; }
+      .arrowhead { fill: #90A4C8; }
+      .arrowhead-r { fill: #F87171; }
+      .label { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; }
+    </style>
+    <marker id="arrowV2" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" class="arrowhead"/>
+    </marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" class="arrowhead-r"/>
+    </marker>
+  </defs>
+
+  <!-- 1: Bắt đầu -->
+  <g transform="translate(180,15)">
+    <rect class="card" x="0" y="0" width="340" height="80" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="36" text-anchor="middle">📋 Đối soát bài thi, hồ sơ, đề thi</text>
+    <text class="desc" x="170" y="58" text-anchor="middle">Sau mỗi buổi thi / sau ngày thi cuối</text>
+  </g>
+  <path class="arrow" d="M350,95 L350,130" marker-end="url(#arrowV2)"/>
+
+  <!-- Diamond: Khớp? -->
+  <polygon class="diamond" points="350,135 470,215 350,295 230,215"/>
+  <text class="title-d" x="350" y="205" text-anchor="middle">Khớp với danh sách</text>
+  <text class="title-d" x="350" y="225" text-anchor="middle">/ hồ sơ gốc?</text>
+
+  <!-- Path: Đúng -> down -->
+  <path class="arrow" d="M350,295 L350,325" marker-end="url(#arrowV2)"/>
+  <text class="label" x="365" y="315" fill="#0F3573">Đúng</text>
+
+  <g transform="translate(180,330)">
+    <rect class="card" x="0" y="0" width="340" height="80" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="36" text-anchor="middle">📦 Sắp xếp & đóng gói</text>
+    <text class="desc" x="170" y="58" text-anchor="middle">Theo đúng thứ tự quy định, niêm phong</text>
+  </g>
+  <path class="arrow" d="M350,410 L350,440" marker-end="url(#arrowV2)"/>
+
+  <g transform="translate(180,445)">
+    <rect class="card" x="0" y="0" width="340" height="80" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="36" text-anchor="middle">✅ Sẵn sàng chuyển</text>
+    <text class="desc" x="170" y="58" text-anchor="middle">sang Bước 9 — Đóng gói &amp; Bàn giao</text>
+  </g>
+
+  <!-- Path: Sai lệch -> left branch -->
+  <path class="arrow-r" d="M230,215 L60,215 L60,330" marker-end="url(#arrowR)"/>
+  <text class="label" x="20" y="205" fill="#991B1B">Sai lệch</text>
+
+  <g transform="translate(0,335)">
+    <rect class="danger-card" x="0" y="0" width="230" height="90" rx="10"/>
+    <text class="title-r" x="115" y="32" text-anchor="middle">⚠️ Xác minh &amp;</text>
+    <text class="title-r" x="115" y="52" text-anchor="middle">xử lý sai lệch</text>
+    <text class="desc" x="115" y="74" text-anchor="middle">Không tự ý xử lý một mình</text>
+  </g>
+  <path class="arrow-r" d="M115,425 L115,460" marker-end="url(#arrowR)"/>
+
+  <g transform="translate(0,465)">
+    <rect class="danger-card" x="0" y="0" width="230" height="90" rx="10"/>
+    <text class="title-r" x="115" y="32" text-anchor="middle">📞 Báo Exam</text>
+    <text class="title-r" x="115" y="52" text-anchor="middle">Coordinator / Director</text>
+    <text class="desc" x="115" y="74" text-anchor="middle">Xem Danh bạ &amp; Escalation</text>
+  </g>
+
+  <!-- Loop back to Đối soát -->
+  <path class="arrow-r" d="M115,555 L115,650 L350,650 L350,95" marker-end="url(#arrowR)"/>
+  <text class="label" x="130" y="645" fill="#991B1B">Sau khi xử lý xong → đối soát lại</text>
+
+  <!-- Note box -->
+  <g transform="translate(140,900)">
+    <rect class="card" x="0" y="0" width="420" height="100" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="5" height="100" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle" font-size="14">📌 Nguyên tắc</text>
+    <text class="desc" x="210" y="55" text-anchor="middle">Mọi sai lệch phải được xác minh và xử lý</text>
+    <text class="desc" x="210" y="73" text-anchor="middle">trước khi chuyển sang bước tiếp theo —</text>
+    <text class="desc" x="210" y="91" text-anchor="middle">không đóng gói khi còn nghi vấn chưa rõ.</text>
+  </g>
+</svg>

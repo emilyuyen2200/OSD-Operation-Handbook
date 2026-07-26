@@ -1,0 +1,82 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <style>
+    .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+    .accent { fill: #0F3573; }
+    .accent-light { fill: #3B78E0; }
+    .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #0F3573; }
+    .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #4A5568; }
+    .arrow { stroke: #90A4C8; stroke-width: 2.5; fill: none; }
+    .arrowhead { fill: #90A4C8; }
+    .badge { fill: #FFFFFF; font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; }
+    .end-title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #0F3573; }
+    .end-desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #4A5568; }
+    .danger-box { fill: #FEF2F2; stroke: #FCA5A5; stroke-width: 1; }
+    .danger-title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #991B1B; }
+    .warn-box { fill: #FFF7ED; stroke: #FDBA74; stroke-width: 1; }
+    .warn-title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #92400E; }
+</style>
+    <marker id="arrowV" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" class="arrowhead"/>
+    </marker>
+    <marker id="arrowH" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" class="arrowhead"/>
+    </marker>
+    
+  </defs>
+  <g transform="translate(20,15)">
+    <rect class="card" x="0" y="0" width="180" height="150" rx="10"/>
+    <rect class="accent" x="0" y="0" width="180" height="5" rx="2"/>
+    <text class="title" x="90" y="28" text-anchor="middle" font-size="14">1. Xác định thời gian</text>
+    <text class="title" x="90" y="46" text-anchor="middle" font-size="14">tổ chức</text>
+    <text class="desc" x="90" y="74" text-anchor="middle" font-size="11.5">Thống nhất ngày thi với</text>
+    <text class="desc" x="90" y="89" text-anchor="middle" font-size="11.5">Exam Director, kiểm tra</text>
+    <text class="desc" x="90" y="104" text-anchor="middle" font-size="11.5">lịch các kỳ thi đã lên</text>
+    <text class="desc" x="90" y="119" text-anchor="middle" font-size="11.5">kế hoạch.</text>
+  </g>
+  <path class="arrow" d="M110,165 L110,185" marker-end="url(#arrowV)"/>
+  <g transform="translate(20,185)">
+    <rect class="danger-box" x="0" y="0" width="180" height="80" rx="8" style="fill:#EEF3FC;stroke:#C9D6EA"/>
+    <text class="desc" x="90" y="20" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:#0F3573">Kết quả: Có ngày tổ chức</text>
+    <text class="desc" x="90" y="35" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:#0F3573">kỳ thi được xác định.</text>
+  </g>
+  <g transform="translate(220,15)">
+    <rect class="card" x="0" y="0" width="180" height="150" rx="10"/>
+    <rect class="accent" x="0" y="0" width="180" height="5" rx="2"/>
+    <text class="title" x="90" y="28" text-anchor="middle" font-size="14">2. Xác định trình độ</text>
+    <text class="title" x="90" y="46" text-anchor="middle" font-size="14">mở thi</text>
+    <text class="desc" x="90" y="74" text-anchor="middle" font-size="11.5">Xác định trình độ tổ</text>
+    <text class="desc" x="90" y="89" text-anchor="middle" font-size="11.5">chức, kiểm tra nhu cầu</text>
+    <text class="desc" x="90" y="104" text-anchor="middle" font-size="11.5">đăng ký dự kiến.</text>
+  </g>
+  <path class="arrow" d="M310,165 L310,185" marker-end="url(#arrowV)"/>
+  <g transform="translate(220,185)">
+    <rect class="danger-box" x="0" y="0" width="180" height="80" rx="8" style="fill:#EEF3FC;stroke:#C9D6EA"/>
+    <text class="desc" x="90" y="20" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:#0F3573">Kết quả: Danh sách trình</text>
+    <text class="desc" x="90" y="35" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:#0F3573">độ được phê duyệt.</text>
+  </g>
+  <g transform="translate(420,15)">
+    <rect class="card" x="0" y="0" width="180" height="150" rx="10"/>
+    <rect class="accent" x="0" y="0" width="180" height="5" rx="2"/>
+    <text class="title" x="90" y="28" text-anchor="middle" font-size="14">3. Đăng ký kỳ thi với</text>
+    <text class="title" x="90" y="46" text-anchor="middle" font-size="14">ÖSD</text>
+    <text class="desc" x="90" y="74" text-anchor="middle" font-size="11.5">Chuẩn bị thông tin theo</text>
+    <text class="desc" x="90" y="89" text-anchor="middle" font-size="11.5">yêu cầu, gửi đăng ký và</text>
+    <text class="desc" x="90" y="104" text-anchor="middle" font-size="11.5">lưu xác nhận.</text>
+  </g>
+  <path class="arrow" d="M510,165 L510,185" marker-end="url(#arrowV)"/>
+  <g transform="translate(420,185)">
+    <rect class="danger-box" x="0" y="0" width="180" height="80" rx="8" style="fill:#EEF3FC;stroke:#C9D6EA"/>
+    <text class="desc" x="90" y="20" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:#0F3573">Kết quả: Nhận xác nhận</text>
+    <text class="desc" x="90" y="35" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:#0F3573">đăng ký từ ÖSD.</text>
+  </g>
+  <path class="arrow" d="M110,265 L310,295" marker-end="url(#arrowV)"/>
+  <path class="arrow" d="M310,265 L310,295"/>
+  <path class="arrow" d="M510,265 L310,295"/>
+  <g transform="translate(120,295)">
+    <rect class="card" x="0" y="0" width="380" height="70" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="380" height="5" rx="2"/>
+    <text class="title" x="190" y="34" text-anchor="middle" font-size="15">✅ Sẵn sàng chuyển</text>
+    <text class="desc" x="190" y="54" text-anchor="middle">sang Bước 2 — Quản lý đăng ký &amp; Truyền thông</text>
+  </g>
+</svg>

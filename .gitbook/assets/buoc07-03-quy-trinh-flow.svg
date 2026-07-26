@@ -1,0 +1,80 @@
+<svg viewBox="0 0 600 676" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <style>
+    .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+    .accent { fill: #0F3573; }
+    .accent-light { fill: #3B78E0; }
+    .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #0F3573; }
+    .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #4A5568; }
+    .arrow { stroke: #90A4C8; stroke-width: 2.5; fill: none; }
+    .arrowhead { fill: #90A4C8; }
+    .badge { fill: #FFFFFF; font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; }
+    .end-title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #0F3573; }
+    .end-desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #4A5568; }
+    .danger-box { fill: #FEF2F2; stroke: #FCA5A5; stroke-width: 1; }
+    .danger-title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #991B1B; }
+    .warn-box { fill: #FFF7ED; stroke: #FDBA74; stroke-width: 1; }
+    .warn-title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #92400E; }
+</style>
+    <marker id="arrowV" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" class="arrowhead"/>
+    </marker>
+    <marker id="arrowH" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" class="arrowhead"/>
+    </marker>
+    
+  </defs>
+  <g transform="translate(90,15)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">1. Chuẩn bị đề thi</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Tiếp nhận đề thi, chuẩn bị phiếu đánh giá và biểu mẫu</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">theo từng cặp thí sinh.</text>
+  </g>
+  <path class="arrow" d="M300,91 L300,111" marker-end="url(#arrowV)"/>
+  <g transform="translate(90,111)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">2. Đón thí sinh vào phòng chuẩn bị</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Gọi tên, kiểm tra thông tin, hướng dẫn vào phòng chuẩn</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">bị đúng lịch thi.</text>
+  </g>
+  <path class="arrow" d="M300,187 L300,207" marker-end="url(#arrowV)"/>
+  <g transform="translate(90,207)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">3. Hướng dẫn và phát đề</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Phổ biến quy định, hướng dẫn điền thông tin, phát đề bắt</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">đầu chuẩn bị.</text>
+  </g>
+  <path class="arrow" d="M300,283 L300,303" marker-end="url(#arrowV)"/>
+  <g transform="translate(90,303)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">4. Điều phối thời gian chuẩn bị</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Giám sát chuẩn bị, thu tài liệu, đảm bảo đúng thời lượng</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">quy định.</text>
+  </g>
+  <path class="arrow" d="M300,379 L300,399" marker-end="url(#arrowV)"/>
+  <g transform="translate(90,399)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">5. Chuyển sang phòng thi Nói</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Điều phối từng cặp thí sinh vào phòng thi, bàn giao hồ</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">sơ cho Examiner.</text>
+  </g>
+  <path class="arrow" d="M300,475 L300,495" marker-end="url(#arrowV)"/>
+  <g transform="translate(90,495)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">6. Kết thúc ngày thi</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Thu hồi đề thi, giấy nháp, biểu mẫu; hoàn tất bàn giao</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">hồ sơ.</text>
+  </g>
+  <g transform="translate(90,591)">
+    <rect class="card" x="0" y="0" width="420" height="70" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="34" text-anchor="middle" font-size="15">✅ Sẵn sàng bàn giao</text>
+    <text class="desc" x="210" y="54" text-anchor="middle">hồ sơ cho 07-04 — Thu bài &amp; Bàn giao</text>
+  </g>
+</svg>

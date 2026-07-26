@@ -1,0 +1,123 @@
+<svg viewBox="0 0 600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+      .accent { fill: #0F3573; }
+      .accent-light { fill: #0059EC; }
+      .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #0F3573; }
+      .title-lg { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #0F3573; }
+      .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11.5px; fill: #4A5568; }
+      .label { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; }
+      .line { stroke: #90A4C8; stroke-width: 2.5; fill: none; }
+    </style>
+    <marker id="arrowB2" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" fill="#90A4C8"/>
+    </marker>
+  </defs>
+
+  <!-- Start -->
+  <g transform="translate(110,15)">
+    <rect class="card" x="0" y="0" width="380" height="70" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="380" height="5" rx="2"/>
+    <text class="title-lg" x="190" y="34" text-anchor="middle">✅ Bước 1 hoàn tất</text>
+    <text class="desc" x="190" y="54" text-anchor="middle">Kế hoạch kỳ thi đã được Exam Director phê duyệt</text>
+  </g>
+
+  <!-- fork -->
+  <path class="line" d="M300,85 L300,105 L145,105 L145,125" marker-end="url(#arrowB2)"/>
+  <path class="line" d="M300,85 L300,105 L455,105 L455,125" marker-end="url(#arrowB2)"/>
+
+  <text class="label" x="30" y="118" fill="#0F3573">2A — Exam Coordinator</text>
+  <text class="label" x="380" y="118" fill="#0F3573">2B — Marketing</text>
+
+  <!-- Column A -->
+  <g transform="translate(20,130)">
+    <rect class="card" x="0" y="0" width="250" height="75" rx="9"/>
+    <rect class="accent" x="0" y="0" width="250" height="4" rx="2"/>
+    <text class="title" x="125" y="28" text-anchor="middle">1. Mở cổng đăng ký</text>
+    <text class="desc" x="125" y="48" text-anchor="middle">osd.phuongnameducation.com</text>
+    <text class="desc" x="125" y="63" text-anchor="middle">Kiểm tra form hoạt động</text>
+  </g>
+  <path class="line" d="M145,205 L145,220" marker-end="url(#arrowB2)"/>
+
+  <g transform="translate(20,225)">
+    <rect class="card" x="0" y="0" width="250" height="75" rx="9"/>
+    <rect class="accent" x="0" y="0" width="250" height="4" rx="2"/>
+    <text class="title" x="125" y="28" text-anchor="middle">2. Tiếp nhận &amp; kiểm tra</text>
+    <text class="desc" x="125" y="48" text-anchor="middle">hồ sơ đăng ký</text>
+    <text class="desc" x="125" y="63" text-anchor="middle">Liên hệ bổ sung nếu thiếu/sai</text>
+  </g>
+  <path class="line" d="M145,300 L145,315" marker-end="url(#arrowB2)"/>
+
+  <g transform="translate(20,320)">
+    <rect class="card" x="0" y="0" width="250" height="75" rx="9"/>
+    <rect class="accent" x="0" y="0" width="250" height="4" rx="2"/>
+    <text class="title" x="125" y="28" text-anchor="middle">3. Đối soát thanh toán</text>
+    <text class="desc" x="125" y="48" text-anchor="middle">Đối chiếu với thông tin đăng ký</text>
+    <text class="desc" x="125" y="63" text-anchor="middle">Xác nhận đăng ký thành công</text>
+  </g>
+  <path class="line" d="M145,395 L145,410" marker-end="url(#arrowB2)"/>
+
+  <g transform="translate(20,415)">
+    <rect class="card" x="0" y="0" width="250" height="75" rx="9"/>
+    <rect class="accent" x="0" y="0" width="250" height="4" rx="2"/>
+    <text class="title" x="125" y="28" text-anchor="middle">4. Báo cáo tiến độ</text>
+    <text class="desc" x="125" y="48" text-anchor="middle">Định kỳ theo mốc thời gian</text>
+    <text class="desc" x="125" y="63" text-anchor="middle">cho Exam Director</text>
+  </g>
+  <path class="line" d="M145,490 L145,505" marker-end="url(#arrowB2)"/>
+
+  <g transform="translate(20,510)">
+    <rect class="card" x="0" y="0" width="250" height="75" rx="9"/>
+    <rect class="accent" x="0" y="0" width="250" height="4" rx="2"/>
+    <text class="title" x="125" y="28" text-anchor="middle">5. Đóng đăng ký &amp;</text>
+    <text class="desc" x="125" y="48" text-anchor="middle">lập danh sách thí sinh</text>
+    <text class="desc" x="125" y="63" text-anchor="middle">chính thức</text>
+  </g>
+
+  <!-- Column B -->
+  <g transform="translate(330,130)">
+    <rect class="card" x="0" y="0" width="250" height="75" rx="9"/>
+    <rect class="accent-light" x="0" y="0" width="250" height="4" rx="2"/>
+    <text class="title" x="125" y="28" text-anchor="middle">1. Cập nhật thông tin</text>
+    <text class="desc" x="125" y="48" text-anchor="middle">Lịch thi, lệ phí, địa điểm,</text>
+    <text class="desc" x="125" y="63" text-anchor="middle">hạn đăng ký trên website</text>
+  </g>
+  <path class="line" d="M455,205 L455,220" marker-end="url(#arrowB2)"/>
+
+  <g transform="translate(330,225)">
+    <rect class="card" x="0" y="0" width="250" height="75" rx="9"/>
+    <rect class="accent-light" x="0" y="0" width="250" height="4" rx="2"/>
+    <text class="title" x="125" y="28" text-anchor="middle">2. Mở đăng ký &amp;</text>
+    <text class="desc" x="125" y="48" text-anchor="middle">cổng thanh toán</text>
+  </g>
+  <path class="line" d="M455,300 L455,315" marker-end="url(#arrowB2)"/>
+
+  <g transform="translate(330,320)">
+    <rect class="card" x="0" y="0" width="250" height="75" rx="9"/>
+    <rect class="accent-light" x="0" y="0" width="250" height="4" rx="2"/>
+    <text class="title" x="125" y="28" text-anchor="middle">3. Triển khai truyền thông</text>
+    <text class="desc" x="125" y="48" text-anchor="middle">Facebook · Zalo ·</text>
+    <text class="desc" x="125" y="63" text-anchor="middle">tin nhắn học viên</text>
+  </g>
+  <path class="line" d="M455,395 L455,410" marker-end="url(#arrowB2)"/>
+
+  <g transform="translate(330,415)">
+    <rect class="card" x="0" y="0" width="250" height="75" rx="9"/>
+    <rect class="accent-light" x="0" y="0" width="250" height="4" rx="2"/>
+    <text class="title" x="125" y="28" text-anchor="middle">4. Theo dõi hiệu quả</text>
+    <text class="desc" x="125" y="48" text-anchor="middle">Số lượng đăng ký trong</text>
+    <text class="desc" x="125" y="63" text-anchor="middle">suốt chiến dịch</text>
+  </g>
+
+  <!-- merge -->
+  <path class="line" d="M145,585 L145,650 L300,650 L300,680" marker-end="url(#arrowB2)"/>
+  <path class="line" d="M455,490 L455,650 L300,650" />
+
+  <g transform="translate(110,685)">
+    <rect class="card" x="0" y="0" width="380" height="80" rx="10"/>
+    <rect class="accent" x="0" y="0" width="380" height="5" rx="2"/>
+    <text class="title-lg" x="190" y="34" text-anchor="middle">✅ Sẵn sàng chuyển</text>
+    <text class="desc" x="190" y="56" text-anchor="middle">sang Bước 3 — Sắp xếp lịch thi chi tiết</text>
+  </g>
+</svg>

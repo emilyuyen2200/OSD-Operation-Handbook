@@ -1,0 +1,88 @@
+<svg viewBox="0 0 560 980" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+      .accent { fill: #0F3573; }
+      .accent-light { fill: #0059EC; }
+      .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #0F3573; }
+      .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #4A5568; }
+      .arrow { stroke: #90A4C8; stroke-width: 2.5; fill: none; }
+      .arrowhead { fill: #90A4C8; }
+    </style>
+    <marker id="arrowV" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" class="arrowhead"/>
+    </marker>
+  </defs>
+
+  <!-- Card 1: Thí sinh đến điểm thi -->
+  <g transform="translate(130,15)">
+    <rect class="card" x="0" y="0" width="300" height="80" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="300" height="5" rx="2"/>
+    <text class="title" x="150" y="38" text-anchor="middle" font-size="17">🚶 Thí sinh đến điểm thi</text>
+    <text class="desc" x="150" y="60" text-anchor="middle">Bắt đầu ngày thi</text>
+  </g>
+
+  <path class="arrow" d="M280,95 L280,130" marker-end="url(#arrowV)"/>
+
+  <!-- Card 2: 07-01 -->
+  <g transform="translate(110,135)">
+    <rect class="card" x="0" y="0" width="340" height="90" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="38" text-anchor="middle" font-size="17">🪪 07-01. Tiếp nhận thí sinh</text>
+    <text class="desc" x="170" y="62" text-anchor="middle">Welcome · Check-in · Gửi đồ · An ninh</text>
+  </g>
+
+  <path class="arrow" d="M280,225 L280,260" marker-end="url(#arrowV)"/>
+
+  <!-- Card 3: Giám thị điều phối -->
+  <g transform="translate(110,265)">
+    <rect class="card" x="0" y="0" width="340" height="90" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="38" text-anchor="middle" font-size="16">🧭 Điều phối vào phòng thi</text>
+    <text class="desc" x="170" y="62" text-anchor="middle">Giám thị đưa thí sinh vào đúng phòng</text>
+  </g>
+
+  <!-- Fork -->
+  <path class="arrow" d="M280,355 L280,385 L145,385 L145,410" marker-end="url(#arrowV)"/>
+  <path class="arrow" d="M280,355 L280,385 L415,385 L415,410" marker-end="url(#arrowV)"/>
+
+  <!-- Card 4a: 07-02 Thi Viết -->
+  <g transform="translate(20,415)">
+    <rect class="card" x="0" y="0" width="250" height="110" rx="10"/>
+    <rect class="accent" x="0" y="0" width="250" height="5" rx="2"/>
+    <text class="title" x="125" y="42" text-anchor="middle" font-size="16">✍️ 07-02</text>
+    <text class="title" x="125" y="65" text-anchor="middle" font-size="15">Phòng thi Viết</text>
+    <text class="desc" x="125" y="88" text-anchor="middle">Điều hành theo quy chế</text>
+  </g>
+
+  <!-- Card 4b: 07-03 Thi Nói -->
+  <g transform="translate(290,415)">
+    <rect class="card" x="0" y="0" width="250" height="110" rx="10"/>
+    <rect class="accent" x="0" y="0" width="250" height="5" rx="2"/>
+    <text class="title" x="125" y="42" text-anchor="middle" font-size="16">🎙️ 07-03</text>
+    <text class="title" x="125" y="65" text-anchor="middle" font-size="15">Phòng thi Nói</text>
+    <text class="desc" x="125" y="88" text-anchor="middle">Theo từng ca thi</text>
+  </g>
+
+  <!-- Merge -->
+  <path class="arrow" d="M145,525 L145,555 L280,555 L280,580" marker-end="url(#arrowV)"/>
+  <path class="arrow" d="M415,525 L415,555 L280,555 L280,580" marker-end="url(#arrowV)"/>
+
+  <!-- Card 5: 07-04 -->
+  <g transform="translate(110,585)">
+    <rect class="card" x="0" y="0" width="340" height="100" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="40" text-anchor="middle" font-size="17">📦 07-04. Thu bài &amp; Bàn giao</text>
+    <text class="desc" x="170" y="65" text-anchor="middle">Thu bài, kiểm đếm, đối soát, bàn giao hồ sơ</text>
+  </g>
+
+  <path class="arrow" d="M280,685 L280,715" marker-end="url(#arrowV)"/>
+
+  <!-- Card 6: chuyển bước 8 -->
+  <g transform="translate(110,720)">
+    <rect class="card" x="0" y="0" width="340" height="80" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="38" text-anchor="middle" font-size="16">✅ Sẵn sàng chuyển</text>
+    <text class="desc" x="170" y="60" text-anchor="middle">sang Bước 8 — Đối soát bài thi</text>
+  </g>
+</svg>

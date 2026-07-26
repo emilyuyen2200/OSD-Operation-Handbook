@@ -1,0 +1,96 @@
+<svg viewBox="0 0 700 1030" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+      .accent { fill: #0F3573; }
+      .accent-light { fill: #0059EC; }
+      .diamond { fill: #FFF7ED; stroke: #F59E0B; stroke-width: 1.5; }
+      .danger-card { fill: #FEF2F2; stroke: #FCA5A5; stroke-width: 1.5; }
+      .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #0F3573; }
+      .title-d { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #92400E; }
+      .title-r { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 700; fill: #991B1B; }
+      .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #4A5568; }
+      .arrow { stroke: #90A4C8; stroke-width: 2.5; fill: none; }
+      .arrow-r { stroke: #F87171; stroke-width: 2.5; fill: none; }
+      .label { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; }
+    </style>
+    <marker id="arrowV4" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" fill="#90A4C8"/>
+    </marker>
+    <marker id="arrowR4" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" fill="#F87171"/>
+    </marker>
+  </defs>
+
+  <g transform="translate(180,15)">
+    <rect class="card" x="0" y="0" width="340" height="70" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="34" text-anchor="middle" font-size="15">📧 Nhận thông báo DHL</text>
+    <text class="desc" x="170" y="54" text-anchor="middle">Ghi nhận vận đơn, báo Exam Coordinator</text>
+  </g>
+  <path class="arrow" d="M350,85 L350,110" marker-end="url(#arrowV4)"/>
+
+  <g transform="translate(180,115)">
+    <rect class="card" x="0" y="0" width="340" height="70" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="34" text-anchor="middle" font-size="15">🚚 Theo dõi vận chuyển</text>
+    <text class="desc" x="170" y="54" text-anchor="middle">Chủ động liên hệ DHL xác nhận tiến độ</text>
+  </g>
+  <path class="arrow" d="M350,185 L350,210" marker-end="url(#arrowV4)"/>
+
+  <g transform="translate(180,215)">
+    <rect class="card" x="0" y="0" width="340" height="70" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="34" text-anchor="middle" font-size="15">📦 Tiếp nhận lô đề thi</text>
+    <text class="desc" x="170" y="54" text-anchor="middle">Kiểm tra số kiện, ký xác nhận</text>
+  </g>
+  <path class="arrow" d="M350,285 L350,315" marker-end="url(#arrowV4)"/>
+
+  <!-- Diamond -->
+  <polygon class="diamond" points="350,320 490,400 350,480 210,400"/>
+  <text class="title-d" x="350" y="390" text-anchor="middle">Đủ số lượng &amp;</text>
+  <text class="title-d" x="350" y="410" text-anchor="middle">niêm phong nguyên vẹn?</text>
+
+  <path class="arrow" d="M350,480 L350,510" marker-end="url(#arrowV4)"/>
+  <text class="label" x="365" y="500" fill="#0F3573">Đúng</text>
+
+  <g transform="translate(180,515)">
+    <rect class="card" x="0" y="0" width="340" height="70" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="34" text-anchor="middle" font-size="15">🔒 Lưu trữ trong két sắt</text>
+    <text class="desc" x="170" y="54" text-anchor="middle">Giữ nguyên niêm phong, ghi nhận thời gian</text>
+  </g>
+  <path class="arrow" d="M350,585 L350,610" marker-end="url(#arrowV4)"/>
+
+  <g transform="translate(180,615)">
+    <rect class="card" x="0" y="0" width="340" height="70" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="34" text-anchor="middle" font-size="15">✅ Sẵn sàng bàn giao</text>
+    <text class="desc" x="170" y="54" text-anchor="middle">vào ngày tổ chức kỳ thi</text>
+  </g>
+
+  <!-- Exception branch -->
+  <path class="arrow-r" d="M210,400 L60,400 L60,720" marker-end="url(#arrowR4)"/>
+  <text class="label" x="15" y="390" fill="#991B1B">Bất thường</text>
+
+  <g transform="translate(0,725)">
+    <rect class="danger-card" x="0" y="0" width="230" height="95" rx="10"/>
+    <text class="title-r" x="115" y="28" text-anchor="middle">⚠️ Xử lý sự cố</text>
+    <text class="desc" x="115" y="50" text-anchor="middle">Thiếu kiện / rách móp / trễ giờ</text>
+    <text class="desc" x="115" y="66" text-anchor="middle">— chụp ảnh hiện trạng làm</text>
+    <text class="desc" x="115" y="82" text-anchor="middle">bằng chứng</text>
+  </g>
+  <path class="arrow-r" d="M115,820 L115,850" marker-end="url(#arrowR4)"/>
+
+  <g transform="translate(0,855)">
+    <rect class="danger-card" x="0" y="0" width="230" height="95" rx="10"/>
+    <text class="title-r" x="115" y="28" text-anchor="middle">📞 Báo Exam Director</text>
+    <text class="desc" x="115" y="50" text-anchor="middle">&amp; liên hệ DHL xử lý</text>
+    <text class="desc" x="115" y="70" text-anchor="middle">Xem Danh bạ &amp; Escalation</text>
+    <text class="desc" x="115" y="86" text-anchor="middle">nếu không liên lạc được</text>
+  </g>
+
+  <!-- loop back to Theo dõi vận chuyển -->
+  <path class="arrow-r" d="M230,900 L620,900 L620,150 L520,150" marker-end="url(#arrowR4)"/>
+  <text class="label" x="400" y="893" fill="#991B1B">Tiếp tục theo dõi đến khi nhận đủ/xử lý xong</text>
+</svg>

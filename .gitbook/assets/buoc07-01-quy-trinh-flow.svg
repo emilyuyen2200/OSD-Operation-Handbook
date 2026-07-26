@@ -1,0 +1,85 @@
+<svg viewBox="0 0 560 850" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+      .accent { fill: #0F3573; }
+      .accent-light { fill: #0059EC; }
+      .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #0F3573; }
+      .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #4A5568; }
+      .who { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #0059EC; }
+      .arrow { stroke: #90A4C8; stroke-width: 2.5; fill: none; }
+      .arrowhead { fill: #90A4C8; }
+    </style>
+    <marker id="arrowP" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" class="arrowhead"/>
+    </marker>
+  </defs>
+
+  <!-- 1 -->
+  <g transform="translate(110,15)">
+    <rect class="card" x="0" y="0" width="340" height="90" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="35" text-anchor="middle">① 👋 Đón tiếp thí sinh</text>
+    <text class="desc" x="170" y="55" text-anchor="middle">Hướng dẫn đến khu vực tiếp nhận</text>
+    <text class="who" x="170" y="75" text-anchor="middle">Welcome Officer</text>
+  </g>
+  <path class="arrow" d="M280,105 L280,135" marker-end="url(#arrowP)"/>
+
+  <!-- 2 -->
+  <g transform="translate(110,140)">
+    <rect class="card" x="0" y="0" width="340" height="90" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="35" text-anchor="middle">② 🧾 Check-in</text>
+    <text class="desc" x="170" y="55" text-anchor="middle">Kiểm tra hồ sơ, xác minh danh tính</text>
+    <text class="who" x="170" y="75" text-anchor="middle">Check-in Officer</text>
+  </g>
+  <path class="arrow" d="M280,230 L280,260" marker-end="url(#arrowP)"/>
+
+  <!-- 3 -->
+  <g transform="translate(110,265)">
+    <rect class="card" x="0" y="0" width="340" height="90" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="35" text-anchor="middle">③ 🎒 Gửi đồ cá nhân</text>
+    <text class="desc" x="170" y="55" text-anchor="middle">Gửi vật dụng không được phép mang vào phòng thi</text>
+    <text class="who" x="170" y="75" text-anchor="middle">Locker Officer</text>
+  </g>
+  <path class="arrow" d="M280,355 L280,385" marker-end="url(#arrowP)"/>
+
+  <!-- 4 -->
+  <g transform="translate(110,390)">
+    <rect class="card" x="0" y="0" width="340" height="90" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="35" text-anchor="middle">④ 🛡️ Kiểm tra an ninh</text>
+    <text class="desc" x="170" y="55" text-anchor="middle">Quét an ninh trước khi vào khu vực chờ</text>
+    <text class="who" x="170" y="75" text-anchor="middle">Security Officer</text>
+  </g>
+  <path class="arrow" d="M280,480 L280,510" marker-end="url(#arrowP)"/>
+
+  <!-- 5 -->
+  <g transform="translate(110,515)">
+    <rect class="card" x="0" y="0" width="340" height="90" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="35" text-anchor="middle">⑤ 🧭 Điều phối khu vực chờ</text>
+    <text class="desc" x="170" y="55" text-anchor="middle">Theo lịch thi, hướng dẫn đến đúng phòng</text>
+    <text class="who" x="170" y="75" text-anchor="middle">Room Coordinator</text>
+  </g>
+  <path class="arrow" d="M280,605 L280,635" marker-end="url(#arrowP)"/>
+
+  <!-- 6 -->
+  <g transform="translate(110,640)">
+    <rect class="card" x="0" y="0" width="340" height="90" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="35" text-anchor="middle">⑥ 🚪 Tiếp nhận vào phòng thi</text>
+    <text class="desc" x="170" y="55" text-anchor="middle">Gọi tên, bắt đầu quy trình phòng thi</text>
+    <text class="who" x="170" y="75" text-anchor="middle">Invigilator</text>
+  </g>
+  <path class="arrow" d="M280,730 L280,760" marker-end="url(#arrowP)"/>
+
+  <!-- Done -->
+  <g transform="translate(110,765)">
+    <rect class="card" x="0" y="0" width="340" height="70" rx="10"/>
+    <rect class="accent" x="0" y="0" width="340" height="5" rx="2"/>
+    <text class="title" x="170" y="35" text-anchor="middle" font-size="15">✅ Sẵn sàng tổ chức phòng thi</text>
+    <text class="desc" x="170" y="55" text-anchor="middle">07-02 Viết / 07-03 Nói</text>
+  </g>
+</svg>
