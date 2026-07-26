@@ -1,0 +1,7 @@
+---
+description: Hoàn tất đối soát toàn bộ bài thi và hồ sơ trước khi đóng gói.
+---
+
+# Checklist Đối soát bài thi
+
+<table><thead><tr><th width="75.125" align="center">✓</th><th width="276.1953125">Hạng mục</th><th>Tiêu chuẩn</th></tr></thead><tbody><tr><td align="center">☐</td><td>Kiểm đếm bài thi</td><td>Đã kiểm đếm số lượng bài thi theo từng phòng thi và từng buổi thi, bảo đảm khớp với danh sách thí sinh thực tế.</td></tr><tr><td align="center">☐</td><td>Đối soát hồ sơ bài thi Viết</td><td>Đã kiểm tra và đối chiếu <strong>Tờ bìa xanh</strong>, hộ chiếu photo và các giấy tờ đính kèm (nếu có).</td></tr><tr><td align="center">☐</td><td>Đối soát bài thi Nói</td><td>Đã đối chiếu kết quả thi, Protokoll, hồ sơ và file ghi âm của từng thí sinh.</td></tr><tr><td align="center">☐</td><td>Kiểm tra thông tin bài thi</td><td>Đã kiểm tra thông tin thí sinh, chữ ký, ngày thi, mã đề, dấu mộc và các thông tin bắt buộc trên toàn bộ bài thi.</td></tr><tr><td align="center">☐</td><td>Đóng mộc bổ sung</td><td>Đã đóng bổ sung các dấu mộc còn thiếu theo đúng quy định.</td></tr><tr><td align="center">☐</td><td>Hồ sơ nhận kết quả nhanh</td><td>Đã ưu tiên xử lý, scan và lưu riêng hồ sơ của thí sinh đăng ký nhận kết quả nhanh (nếu có).</td></tr><tr><td align="center">☐</td><td>Sắp xếp bài thi</td><td>Đã sắp xếp bài thi và hồ sơ theo đúng thứ tự quy định trước khi đóng gói.</td></tr><tr><td align="center">☐</td><td>Kiểm tra lần cuối</td><td>Không còn sai lệch hoặc hồ sơ chưa xử lý trước khi chuyển sang bước đóng gói và niêm phong.</td></tr></tbody></table>
