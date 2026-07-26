@@ -1,0 +1,91 @@
+<svg viewBox="0 0 620 720" width="100%" height="auto" style="display:block;max-width:100%;" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <style>
+    .card { fill: #F4F7FC; stroke: #E1E8F5; stroke-width: 1; }
+    .accent { fill: #0F3573; }
+    .accent-light { fill: #3B78E0; }
+    .title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #0F3573; }
+    .desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12.5px; fill: #4A5568; }
+    .arrow { stroke: #90A4C8; stroke-width: 2.5; fill: none; }
+    .arrowhead { fill: #90A4C8; }
+    .badge { fill: #FFFFFF; font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; }
+    .end-title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #0F3573; }
+    .end-desc { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; fill: #4A5568; }
+    .danger-box { fill: #FEF2F2; stroke: #FCA5A5; stroke-width: 1; }
+    .danger-title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; fill: #991B1B; }
+    .warn-box { fill: #FFF7ED; stroke: #FDBA74; stroke-width: 1; }
+    .warn-title { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; fill: #92400E; }
+</style>
+    <marker id="arrowV" markerWidth="8" markerHeight="8" refX="4" refY="7" orient="auto">
+      <path d="M0,0 L4,8 L8,0 Z" class="arrowhead"/>
+    </marker>
+    <marker id="arrowH" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" class="arrowhead"/>
+    </marker>
+    
+  </defs>
+  <g transform="translate(100,15)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">1. Tiếp nhận chứng chỉ</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Nhận từ ÖSD, kiểm tra số lượng &amp; niêm phong, đối chiếu</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">danh sách.</text>
+  </g>
+  <path class="arrow" d="M310,91 L310,111" marker-end="url(#arrowV)"/>
+  <g transform="translate(100,111)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">2. Kiểm tra và sắp xếp</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Đối chiếu thông tin, sắp xếp theo trình độ/alphabet, lưu</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">trữ an toàn.</text>
+  </g>
+  <path class="arrow" d="M310,187 L310,207" marker-end="url(#arrowV)"/>
+  <g transform="translate(100,207)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">3. Thông báo nhận chứng chỉ</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Thông báo kênh chính thức: thời gian, địa điểm, giấy tờ</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">cần mang.</text>
+  </g>
+  <path class="arrow" d="M310,283 L310,303" marker-end="url(#arrowV)"/>
+  <g transform="translate(100,303)">
+    <rect class="card" x="0" y="0" width="420" height="76" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="30" text-anchor="middle">4. Bàn giao chứng chỉ</text>
+    <text class="desc" x="210" y="50" text-anchor="middle">Kiểm tra giấy tờ tùy thân, đối chiếu thông tin, ghi nhận</text>
+    <text class="desc" x="210" y="66" text-anchor="middle">cấp phát.</text>
+  </g>
+  <text x="310" y="417" text-anchor="middle" class="warn-title" font-size="12.5">Song song / liên tục</text>
+  <path class="arrow" d="M310,379 L200.0,425" marker-end="url(#arrowV)" stroke-dasharray="4,3"/>
+  <g transform="translate(100.0,425)">
+    <rect class="warn-box" x="0" y="0" width="200.0" height="100" rx="9" stroke-dasharray="4,3"/>
+    <text class="warn-title" x="100.0" y="20" text-anchor="middle" font-size="12.5">Theo dõi chưa nhận</text>
+    <text class="desc" x="100.0" y="40" text-anchor="middle" font-size="11">Lập danh sách, nhắc định</text>
+    <text class="desc" x="100.0" y="54" text-anchor="middle" font-size="11">kỳ, tiếp tục lưu trữ an</text>
+    <text class="desc" x="100.0" y="68" text-anchor="middle" font-size="11">toàn.</text>
+  </g>
+  <path class="arrow" d="M310,379 L420.0,425" marker-end="url(#arrowV)" stroke-dasharray="4,3"/>
+  <g transform="translate(320.0,425)">
+    <rect class="warn-box" x="0" y="0" width="200.0" height="100" rx="9" stroke-dasharray="4,3"/>
+    <text class="warn-title" x="100.0" y="20" text-anchor="middle" font-size="12.5">Xử lý phát sinh</text>
+    <text class="desc" x="100.0" y="40" text-anchor="middle" font-size="11">Mất giấy hẹn, nhận thay,</text>
+    <text class="desc" x="100.0" y="54" text-anchor="middle" font-size="11">khiếu nại — báo cáo nếu</text>
+    <text class="desc" x="100.0" y="68" text-anchor="middle" font-size="11">vượt thẩm quyền.</text>
+  </g>
+  <path class="arrow" d="M200.0,525 L310,545" marker-end="url(#arrowV)" stroke-dasharray="4,3"/>
+  <path class="arrow" d="M420.0,525 L310,545" marker-end="url(#arrowV)" stroke-dasharray="4,3"/>
+  <g transform="translate(100,545)">
+    <rect class="card" x="0" y="0" width="420" height="70" rx="10"/>
+    <rect class="accent" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="26" text-anchor="middle" font-size="14">Cập nhật hồ sơ cấp phát</text>
+    <text class="desc" x="210" y="43" text-anchor="middle" font-size="12">Ghi nhận đầy đủ danh sách đã bàn giao và các trường hợp</text>
+    <text class="desc" x="210" y="58" text-anchor="middle" font-size="12">còn tồn.</text>
+  </g>
+  <path class="arrow" d="M310,615 L310,635" marker-end="url(#arrowV)"/>
+  <g transform="translate(100,635)">
+    <rect class="card" x="0" y="0" width="420" height="70" rx="10"/>
+    <rect class="accent-light" x="0" y="0" width="420" height="5" rx="2"/>
+    <text class="title" x="210" y="34" text-anchor="middle" font-size="15">✅ Hoàn tất</text>
+    <text class="desc" x="210" y="54" text-anchor="middle">chứng chỉ được bàn giao đúng người, đúng quy định</text>
+  </g>
+</svg>
