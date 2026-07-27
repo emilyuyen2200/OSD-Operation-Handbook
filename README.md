@@ -21,7 +21,7 @@ layout:
 
 # Welcome
 
-<figure><img src=".gitbook/assets/operation_handbook_banner_optionB (2).svg" alt="Operation Handbook"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/operation_handbook_banner_optionB (3).svg" alt="Operation Handbook"><figcaption></figcaption></figure>
 
 <h2 align="center"><strong>Chào mừng đến với Operation Handbook</strong></h2>
 
